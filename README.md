@@ -85,16 +85,16 @@ A benchmark comparing NeuroKit2 and Pan-Tompkins detectors across all records in
 
 Key findings from the latest benchmark run:
 
-| Metric | NeuroKit2 | Pan-Tompkins | Improvement |
-|--------|-----------|--------------|-------------|
-| **Recall** | 0.419 | 0.949 | +126% |
-| **Precision** | 0.983 | 0.999 | +1.6% |
-| **F1 Score** | 0.588 | 0.973 | +65% |
-| **True Positives** | 44,826 | 101,438 | +2.26x |
-| **False Positives** | 771 | 88 | 8.8x fewer |
-| **False Negatives** | 61,651 | 5,303 | 11.6x fewer |
-| **Detection Error Rate** | 0.588 | 0.052 | 11.3x better |
-| **Ground Truth Beats** | 106,477 | 106,477 | (same) |
+| Metric | NeuroKit2 | Pan-Tompkins |
+|--------|-----------|--------------|
+| **Recall** | 0.419 | 0.949 | 
+| **Precision** | 0.983 | 0.999 | 
+| **F1 Score** | 0.588 | 0.973 |
+| **True Positives** | 44,826 | 101,438 | 
+| **False Positives** | 771 | 88 | 
+| **False Negatives** | 61,651 | 5,303 |
+| **Detection Error Rate** | 0.588 | 0.052 |
+| **Ground Truth Beats** | 106,477 | 106,477 |
 
 ### Output Files
 
